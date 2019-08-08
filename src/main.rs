@@ -1,4 +1,5 @@
 use std::{fs, env, process};
+use std::error::Error;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
